@@ -2,10 +2,21 @@ $(".fruits").owlCarousel({
     margin:30,
     responsive:{
         0:{
-            items:1
+            items:2,
+            merge:true,
+            loop:true,
+            nav:true,
+            navText:["<b>‹</b>","<b>›</b>"]
         },
-        600:{
-            items:2.5,
+        400:{
+            items:3,
+            merge:true,
+            loop:true,
+            nav:true,
+            navText:["<b>‹</b>","<b>›</b>"]
+        },
+        700:{
+            items:3.5,
             merge:true,
             loop:true,
             nav:true,
@@ -15,15 +26,17 @@ $(".fruits").owlCarousel({
 });
 
 $(".character").owlCarousel({
-    loop:true,
     margin:30,
-    nav:false,
     responsive:{
         0:{
-            items:1
+            items:2,
+            merge:true,
+            loop:true,
+            nav:true,
+            navText:["<b>‹</b>","<b>›</b>"]
         },
         600:{
-            items:2.5,
+            items:3.5,
             merge:true,
             loop:true,
             nav:true,
