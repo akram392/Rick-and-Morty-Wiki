@@ -1,0 +1,306 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'tt_travels';
+}
+body{
+    font-size: 14px;
+    line-height: 1.4em;
+    background: #191D29;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'tt_travels';
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*****************************************************
+* RICK AND MORTY code goes here....
+*****************************************************/
+.header-section{
+    width: 100%;
+}
+.header .logo{
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 25px auto;
+}
+
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.banner .bubble {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 195px;
+    height: 218px;
+}
+.banner .portal{
+    width: 100px;
+    height: 100px;
+}
+.banner .pill{
+    position: absolute;
+    top: 25%;
+    right: 21%;
+}
+.banner .gun {
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    width: 325px;
+    height: 450px;
+}
+.banner h1{
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 130px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner h1 span{
+    font-style: italic;
+    color: #fff;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner p{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0em;
+    color: #14D9E5;
+    margin: 15px 300px 0px 0px;
+
+}
+.banner .btn-success {
+    color: #fff;
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    padding: 8px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0px 0px 400px;
+}
+.banner .btn-success:hover, .header-section .btn-success:focus {
+    color: #21B573;
+    background: transparent;
+    border-color: #ffffff;
+}
+/* /************************************ */
+.view-cast{
+    width: 100%;
+    padding: 80px 0px;
+}
+.view-cast .btn-success{
+    color: #fff;
+    background: transparent;
+    padding: 8px 35px;
+    border-radius: 10px;
+    border-color: greenyellow;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 05px 0px 0px 500px;
+}
+.view-cast .btn-success:hover, .header-section .btn-success:focus {
+    color: #21B573;
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-color: #ffffff;
+}
+.view-cast .card{
+    padding: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 6% 6% 20% 6% / 6% 6% 20% 6% ;
+    border-color: greenyellow;
+    background-color: transparent;
+    /* clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 79%, 81% 100%, 30% 100%, 0 100%, 0% 30%); */
+}
+.view-cast .card-title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize ;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.view-cast .card-body{
+    padding: 20px 0px 0px 0px;
+}
+.episode-section{
+    width: 100%;
+    padding: 80px 0px;
+    color: #ffffff;
+}
+/* ****************************************/
+.location-section{
+    width: 100%;
+    padding: 80px 0px;
+    color: #ffffff;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 2% 2% 15% 2% / 2% 2% 15% 2% ;
+    border-color: greenyellow;
+    background-color: transparent;
+    /* clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 79%, 81% 100%, 30% 100%, 0 100%, 0% 30%); */
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff;
+    margin: 0px 0px 30px 0px;
+}
+/*********************************************/
+.all-cast{
+    width: 100%;
+    padding: 80px 0px;
+}
+.all-cast .card{
+    margin-bottom: 80px;
+}
+.all-cast h2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #14D9E5;
+    margin: 0px 0px 30px 0px;
+}
+.all-cast .card-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.all-cast .card-body{
+    padding: 20px 0px 0px 0px;
+}
+/******************************************/
+.cast-details{
+    width: 100%;
+    padding: 80px 0px;
+}
+.cast-details .name h4{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 68px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #14D9E5;
+    margin: 70px 0px 0px 0px;
+}
+.cast-details .c1{
+    padding: 40px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px ;
+    border-color: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background-color: transparent;
+    /* clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 79%, 81% 100%, 30% 100%, 0 100%, 0% 30%); */
+}
+.cast-details .icon{
+    height: 200px;
+    margin: 450px 180px 0px; 
+}
+.cast-details .card .card-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.cast-details .card .card-text{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.cast-details .card-body{
+    padding: 20px 0px 0px 0px;
+}
+.cast-details h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.cast-details .card-body ul li{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-transform: capitalize;
+    letter-spacing: 0em;
+    color: #ffffff; 
+}
+.cast-details .menubar{
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/******************************************************/
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.677);
+}
+::-webkit-scrollbar-thumb{
+    width: 12px;
+    height: 5px;
+    background-color: #15bffd91;
+    border-radius: 1rem;
+    border: 0.5rem solid transparent;
+    background-clip: border-box;
+}
+.owl-nav{
+    color: greenyellow;
+}
+.owl-dot.active span{
+    width: 30px !important;
+}
+.owl-prev{
+    left: -10px;
+}
+.owl-next{
+    right: -10px;
+}
+.owl-prev, .owl-next{
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top:30%;
+    background-color: white !important;
+    font-size: 2rem !important;
+    border-radius: 50% !important;
+}
+.owl-prev b, .owl-next b{
+    position: relative;
+    top: -2px;
+}
+.owl-prev:hover, .owl-next:hover{
+    color:  greenyellow !important;
+}
