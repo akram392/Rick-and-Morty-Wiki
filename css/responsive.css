@@ -33,35 +33,86 @@
         padding: 40px 0px;
     }
     .banner .gun {
-        position: absolute;
-        left: 161%;
-        top: 78%;
-        width: 154px;
-        height: 297px;
+        left: 73%;
+        top: 34%;
+        width: 81px;
+        height: 129px;
     }
     .banner h1 {
         font-size: 25px;
         line-height: 30px;
-        text-align: center;
+        text-align: left;
     }
     .banner p {
-        font-size: 9px;
+        font-size: 8px;
         line-height: 13px;
         text-align: left;
         margin: 15px 0px 0px 0px;
     }
+    .banner .bubble {
+        left: -6%;
+        top: 29%;
+        width: 58px;
+        height: 73px;
+    }
+    .banner .pill {
+        top: 37%;
+        right: 18%;
+        width: 15px;
+    }
+    .banner .portal {
+        width: 49px;
+        height: 20px;
+    }
     h4 {
-        font-size: 17px;
-        line-height: 27px;
-        margin: 0px 0px 30px 0px;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner .watch {
+        text-align: left;
     }
     .banner .btn-success {
         padding: 8px 25px;
         border-radius: 30px;
         font-size: 12px;
         font-weight: 500;
-        margin: 15px 0px 0px 0px;
+        margin: 15px 0px 10px 0px;
     }
+    .view-cast{
+        padding: 40px 0px;
+    }
+    .view-cast .btn-success {
+        padding: 8px 20px;
+        font-size: 8px;
+        font-weight: 600;
+        margin: 0px 0px 15px 28px;
+    
+    }
+    .episode-section{
+        padding: 40px 0px;
+    }
+    .episode-section .items .card-text {
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .episode-section .items .card-title{
+        font-size: 6px;
+    }
+    .location-section{
+        padding: 40px 0px;
+
+    }
+    .location-section .items .card-text {
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .location-section .items .card-title{
+        font-size: 6px;
+    }
+
     .all-cast{
         padding: 40px 0px;
     }
@@ -124,6 +175,89 @@
         font-size: 12px;
         line-height: 16px;
     }
+
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner .gun {
+        left: 64%;
+        top: 22%;
+        width: 90px;
+        height: 129px;
+    }
+    .banner h1 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .banner p {
+        font-size: 8px;
+        line-height: 13px;
+        text-align: left;
+        margin: 15px 0px 0px 0px;
+    }
+    .banner .bubble {
+        left: -5%;
+        top: 19%;
+        width: 64px;
+        height: 76px;
+    }
+    .banner .pill {
+        top: 25%;
+        right: 28%;
+        width: 17px;
+    }
+    .banner .portal {
+        width: 49px;
+        height: 20px;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner .watch {
+        text-align: left;
+    }
+    .banner .btn-success {
+        padding: 8px 25px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 15px 0px 10px 0px;
+    }
+    .view-cast{
+        padding: 40px 0px;
+    }
+    .view-cast .btn-success {
+        padding: 8px 20px;
+        font-size: 8px;
+        font-weight: 600;
+        margin: 0px 0px 15px 58px;
+    }
+    .episode-section{
+        padding: 40px 0px;
+    }
+    .episode-section .items .card-text {
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .episode-section .items .card-title{
+        font-size: 8px;
+    }
+    .location-section{
+        padding: 40px 0px;
+
+    }
+    .location-section .items .card-text {
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .location-section .items .card-title{
+        font-size: 8px;
+    }
 }
 @media (min-width: 481px) and (max-width: 767px){
     .header .logo {
@@ -175,6 +309,92 @@
     .all-cast .card-title {
         font-size: 12px;
         line-height: 16px;
+    }
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner .gun {
+        left: 80%;
+        top: 16%;
+        width: 110px;
+        height: 170px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: left;
+    }
+    .banner p {
+        font-size: 8px;
+        line-height: 13px;
+        text-align: left;
+        margin: 15px 0px 0px 0px;
+    }
+    .banner .bubble {
+        left: -3%;
+        top: 13%;
+        width: 70px;
+        height: 83px;
+    }
+    .banner .pill {
+        top: 16%;
+        right: 17%;
+        width: 20px;
+    }
+    .banner .portal {
+        width: 53px;
+        height: 53px;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner .watch {
+        text-align: left;
+    }
+    .banner .btn-success {
+        padding: 8px 25px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 15px 0px 10px 0px;
+    }
+    .view-cast{
+        padding: 40px 0px;
+    }
+    .view-cast .btn-success {
+        padding: 8px 20px;
+        font-size: 8px;
+        font-weight: 600;
+        margin: 0px 0px 15px 138px;
+    }    
+    .card-title {
+        margin-bottom: 0.5rem;
+        font-size: 10px;
+    }
+    .episode-section{
+        padding: 40px 0px;
+    }
+    .episode-section .items .card-text {
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 500;
+    }
+    .episode-section .items .card-title{
+        font-size: 8px;
+    }
+    .location-section{
+        padding: 40px 0px;
+
+    }
+    .location-section .items .card-text {
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 500;
+    }
+    .location-section .items .card-title{
+        font-size: 8px;
     }  
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -232,4 +452,87 @@
         font-size: 12px;
         line-height: 16px;
     } 
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner .gun {
+        left: 80%;
+        top: 14%;
+        width: 150px;
+        height: 200px;
+    }
+    .banner h1 {
+        font-size: 60px;
+        line-height: 80px;
+        text-align: center;
+    }
+    .banner p {
+        font-size: 8px;
+        line-height: 13px;
+        text-align: left;
+        margin: 15px 0px 0px 0px;
+    }
+    .banner .bubble {
+        left: 16%;
+        top: 11%;
+        width: 78px;
+        height: 98px;
+    }
+    .banner .pill {
+        top: 14%;
+        right: 20%;
+        width: 26px;
+    }
+    .banner .portal {
+        width: 58px;
+        height: 60px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner .btn-success {
+        padding: 8px 25px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 15px 0px 10px 150px;
+    }
+    .view-cast{
+        padding: 40px 0px;
+    }
+    .view-cast .btn-success {
+        padding: 10px 25px;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0px 0px 15px 230px;
+    } 
+    .view-cast .card-title {
+        font-size: 18px;
+        line-height: 28px;
+    }  
+    .episode-section{
+        padding: 40px 0px;
+    }
+    .episode-section .items .card-text {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .episode-section .items .card-title{
+        font-size: 8px;
+    }
+    .location-section{
+        padding: 40px 0px;
+
+    }
+    .location-section .items .card-text {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .location-section .items .card-title{
+        font-size: 8px;
+    }  
 }
